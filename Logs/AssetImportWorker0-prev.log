@@ -1,0 +1,379 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16180 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/w0206469/Desktop/Cinemachine
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65070
+Successfully changed project path to: C:/Users/w0206469/Desktop/Cinemachine
+C:/Users/w0206469/Desktop/Cinemachine
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/w0206469/Desktop/Cinemachine/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2200 (ID=0x13ba)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   27.21.14.6192
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001917 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (152ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1538 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1971.
+Total: 2.052700 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.788300 ms  DeleteObjects: 0.072400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/FlamingSands_Cars/generic
+  artifactKey: Guid(8dfc4727948e4da4c87caa9b5da44529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/generic using Guid(8dfc4727948e4da4c87caa9b5da44529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f0370eaa1e937372e23a2f06115659') in 0.008630 seconds 
+  Import took 0.010789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/FlamingSands_Cars/generic/vehicle_generic_wheel.png
+  artifactKey: Guid(6caf82b44b13b054f986b2686b953632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/generic/vehicle_generic_wheel.png using Guid(6caf82b44b13b054f986b2686b953632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2b60b64082d9acfba0484c1d2a0f06') in 0.075994 seconds 
+  Import took 0.078155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/FlamingSands_Cars/generic/vehicle_generic_shadow.png
+  artifactKey: Guid(4e6e16695dee7d84ea7e1a8e0b1b5600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/generic/vehicle_generic_shadow.png using Guid(4e6e16695dee7d84ea7e1a8e0b1b5600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a93ca7a6cf54ab5cdcd0fbe90296457') in 0.019722 seconds 
+  Import took 0.021912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/FlamingSands_Cars/generic/vehicle_generic_detail.psd
+  artifactKey: Guid(2a3b276a1034c6041bc59c6153f9fa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/generic/vehicle_generic_detail.psd using Guid(2a3b276a1034c6041bc59c6153f9fa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9d0f63c8f2000e926d4fa6f6aa8152') in 0.022347 seconds 
+  Import took 0.024835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/FlamingSands_Cars/generic/Materials
+  artifactKey: Guid(af2f9a69994cd3543b416e7c8832ef96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/generic/Materials using Guid(af2f9a69994cd3543b416e7c8832ef96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8770b6db14800c0867a46af17fe0a7') in 0.007056 seconds 
+  Import took 0.009308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/FlamingSands_Cars/generic/Reflection.exr
+  artifactKey: Guid(eee7c8752f0e6d64590e6b49813464f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/generic/Reflection.exr using Guid(eee7c8752f0e6d64590e6b49813464f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20201563f2c2eea59ff05f5aee76b33b') in 0.091140 seconds 
+  Import took 0.094778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/FlamingSands_Cars/generic/vehicle_generic_detail.png
+  artifactKey: Guid(f9711bb1d880bbb4f99ee4c680f27751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/generic/vehicle_generic_detail.png using Guid(f9711bb1d880bbb4f99ee4c680f27751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f79b8fbaa0f6e64fa2437a42ba74f6b') in 0.010807 seconds 
+  Import took 0.013899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/FlamingSands_Cars/generic/vehicle_generic_wheel_normal.png
+  artifactKey: Guid(911d8ef4688ae02489b2fd2991da0b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/generic/vehicle_generic_wheel_normal.png using Guid(911d8ef4688ae02489b2fd2991da0b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0213f8c458cd049ad4522e5e9096c98') in 0.018663 seconds 
+  Import took 0.021807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.050994 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1.fbx
+  artifactKey: Guid(c5c80a52ec520a949aba075f46688c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1.fbx using Guid(c5c80a52ec520a949aba075f46688c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcecb228ab72b641c5f1676fbae7cbd2') in 0.872530 seconds 
+  Import took 0.875773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_window_m.png
+  artifactKey: Guid(30a72e8ec5b0bf44aa450ca4fea34db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_window_m.png using Guid(30a72e8ec5b0bf44aa450ca4fea34db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd4b903e52191dda9ec606c24d607c4') in 0.013054 seconds 
+  Import took 0.015783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_m.png
+  artifactKey: Guid(0f0719a614c6e4a419946f6186ebb6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_m.png using Guid(0f0719a614c6e4a419946f6186ebb6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192d0a6a57857dfb0ffaa15273bca26f') in 0.013871 seconds 
+  Import took 0.016419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_custom.fbx
+  artifactKey: Guid(0539f935f9cdea943b1c186e02c8976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_custom.fbx using Guid(0539f935f9cdea943b1c186e02c8976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2baa43fc480b624cefa4d0f5f297d6') in 0.108691 seconds 
+  Import took 0.111716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_collision.fbx
+  artifactKey: Guid(f5f22b36f6646c542b2676a7d8877048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_collision.fbx using Guid(f5f22b36f6646c542b2676a7d8877048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf269f9d260a20750d02dbeb0f5fad1c') in 0.024831 seconds 
+  Import took 0.027332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_lights_h.png
+  artifactKey: Guid(7790c00890e42444998d37d417d2b0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_lights_h.png using Guid(7790c00890e42444998d37d417d2b0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd957c5edfc9146c036bdca62c6fe81e') in 0.012647 seconds 
+  Import took 0.015183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_custom_2.png
+  artifactKey: Guid(ceaa5339f2027674ea2bb28d3e86163b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_custom_2.png using Guid(ceaa5339f2027674ea2bb28d3e86163b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7108fdc9369c0d25548511bcf2d6515') in 0.014634 seconds 
+  Import took 0.017086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body.png
+  artifactKey: Guid(f569c61ad0b983f44b853f66da991b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body.png using Guid(f569c61ad0b983f44b853f66da991b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d603dadc7ef02a988f56ec62335a8b') in 0.014577 seconds 
+  Import took 0.017201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_custom.prefab
+  artifactKey: Guid(19c15655c6ee95746b4d842244c9d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_custom.prefab using Guid(19c15655c6ee95746b4d842244c9d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40906dcf782aea41a0456ba8ddba9e1a') in 0.447547 seconds 
+  Import took 0.450746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_wheels.fbx
+  artifactKey: Guid(6749e6c50a7fc7340a6d653e5186b7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_wheels.fbx using Guid(6749e6c50a7fc7340a6d653e5186b7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbeba4847d79f6e37321cd8110a733a') in 0.023352 seconds 
+  Import took 0.030915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1.prefab
+  artifactKey: Guid(11162c9a6f982554aa6f8af2757c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1.prefab using Guid(11162c9a6f982554aa6f8af2757c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ace8fa411917ca8448ac94c6111cea4') in 0.025270 seconds 
+  Import took 0.029002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_2.png
+  artifactKey: Guid(1838576ed9514bc4e8bb7d58229b453a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_2.png using Guid(1838576ed9514bc4e8bb7d58229b453a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27511cda506bdfa53f5237b4f4c4cbdd') in 0.018852 seconds 
+  Import took 0.021894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_custom_m.png
+  artifactKey: Guid(55f480d3f5e7fdb4ea69e2f4a418d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_custom_m.png using Guid(55f480d3f5e7fdb4ea69e2f4a418d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b105cd940e1f09a75426f3d05483e475') in 0.013447 seconds 
+  Import took 0.016409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_custom.png
+  artifactKey: Guid(e4236dac0884b3c4d8c1266d721bb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_body_custom.png using Guid(e4236dac0884b3c4d8c1266d721bb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b1ac92d62104180025f7b3a4970538') in 0.013132 seconds 
+  Import took 0.015669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_lights_em.png
+  artifactKey: Guid(42943d8359506b64295c9de851eb6b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_lights_em.png using Guid(42943d8359506b64295c9de851eb6b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee15ccac44f64d2bf7f1d95348946bd') in 0.016559 seconds 
+  Import took 0.019100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_lights.png
+  artifactKey: Guid(5b2bb82a6424b8c4788857cb9c2ec2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_lights.png using Guid(5b2bb82a6424b8c4788857cb9c2ec2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8828f400edc5ccc31a2cfaa5d1f1b690') in 0.054786 seconds 
+  Import took 0.061908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_lights_n.png
+  artifactKey: Guid(b2dbd73a85d8ce24d8eaf2101c1d6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_lights_n.png using Guid(b2dbd73a85d8ce24d8eaf2101c1d6fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29e230f17128fda784bded09f555c10') in 0.038668 seconds 
+  Import took 0.042015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_windows.png
+  artifactKey: Guid(8262a4d55098c4d4cba302bd7fd62b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_windows.png using Guid(8262a4d55098c4d4cba302bd7fd62b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7181539476a0cf94bde3486f20bf6d19') in 0.021708 seconds 
+  Import took 0.026708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1/sport_car_1_interior.png
+  artifactKey: Guid(c6fab77c737b3d741b6e572a2c2396ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1/sport_car_1_interior.png using Guid(c6fab77c737b3d741b6e572a2c2396ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386636650b5f8afd7493be5e24bd0769') in 0.020873 seconds 
+  Import took 0.024522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.783515 seconds.
+  path: Assets/FlamingSands_Cars/sport_car_1
+  artifactKey: Guid(c7ec9c12ce28f5c43af7ac1c07b841ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlamingSands_Cars/sport_car_1 using Guid(c7ec9c12ce28f5c43af7ac1c07b841ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b89436f11c6e1f0d8b205b8970da79') in 0.002515 seconds 
+  Import took 0.005417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.240444 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007260 seconds 
+  Import took 0.013325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.244452 seconds.
+  path: Assets/Ground.mat
+  artifactKey: Guid(9270a608891bf2246bc3204e1f6794fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground.mat using Guid(9270a608891bf2246bc3204e1f6794fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1c9ee265acb9b0dc3e935ea500a0d3') in 0.030934 seconds 
+  Import took 0.033916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.055269 seconds.
+  path: Assets/Ground.mat
+  artifactKey: Guid(9270a608891bf2246bc3204e1f6794fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground.mat using Guid(9270a608891bf2246bc3204e1f6794fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7e4926198722be22caddf9c516132b') in 0.017644 seconds 
+  Import took 0.020385 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
